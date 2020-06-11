@@ -1,14 +1,11 @@
-package com.patterns.factory.factorymethod;
+package com.patterns.factories.factorymethod;
 
-import com.patterns.factory.InstanseNotFoundException;
-import com.patterns.factory.modelfactory.Client;
-import com.patterns.factory.modelfactory.Driver;
-import com.patterns.factory.modelfactory.UserEnum;
-import com.patterns.factory.modelfactory.UserSystem;
+import com.patterns.factories.InstanseNotFoundException;
+import com.patterns.factories.modelfactory.Client;
+import com.patterns.factories.modelfactory.UserEnum;
+import com.patterns.factories.modelfactory.UserSystem;
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class UserSystemFactoryTest {
 
