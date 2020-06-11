@@ -1,5 +1,6 @@
 package com.patterns.factory.factorymethod;
 
+import com.patterns.factory.InstanseNotFoundException;
 import com.patterns.factory.modelfactory.Client;
 import com.patterns.factory.modelfactory.Driver;
 import com.patterns.factory.modelfactory.UserEnum;
@@ -12,7 +13,7 @@ import static org.junit.Assert.*;
 public class UserSystemFactoryTest {
 
     @Test
-    public void getInstance() throws InstanseNotFoundException {
+    public void getInstance() throws InstanseNotFoundException, InstanseNotFoundException {
         UserSystem actualUser = new Client();
         Assert.assertTrue(UserSystemFactory.getInstance(UserEnum.CLIENT) instanceof UserSystem);
     }

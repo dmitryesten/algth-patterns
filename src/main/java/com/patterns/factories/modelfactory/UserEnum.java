@@ -1,4 +1,4 @@
-package com.patterns.factory.modelfactory;
+package com.patterns.factories.modelfactory;
 
 public enum UserEnum {
     CLIENT("CLIENT"), DRIVER("DRIVER");
