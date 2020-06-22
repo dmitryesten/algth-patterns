@@ -13,6 +13,8 @@ public class Person implements Comparable<Person> {
     private double weight;
     private Gender gender;
 
+    public Person(){}
+
     public Person(int id, String nickname, short age, double height, double weight,  Gender gender) {
         this.id = id;
         this.nickname = nickname;
