@@ -1,4 +1,4 @@
-package com.patterns.builder;
+package com;
 
 import com.Gender;
 
