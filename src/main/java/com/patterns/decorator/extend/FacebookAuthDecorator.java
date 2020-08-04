@@ -15,7 +15,7 @@ public class FacebookAuthDecorator extends AbstractAuthDecorator {
 
     @Override
     public void socialWebAuth() {
-        System.out.println("Авторизация по facebook");
+        System.out.println("Mock auyth facebook");
     }
 
 }
