@@ -1,6 +1,5 @@
 package com.patterns.prototype;
 
-import com.patterns.command.restaurant.Client;
 import org.junit.Assert;
 import org.junit.Test;
 
